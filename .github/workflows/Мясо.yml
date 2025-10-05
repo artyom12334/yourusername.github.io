@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мясной дворик</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        
+        /* Стили для шапки */
+        .header {
+            background-color: #ff6b6b;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Стили для меню */
+        .navbar {
+            background-color: #e60000;
+            padding: 10px 0;
+        }
+        
+        .navbar a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        /* Стили для карточек товаров */
+        .product-card {
+            background-color: white;
+            margin: 15px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .product-card img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .price {
+            color: #e60000;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        
+        /* Стили для футера */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <div class="header">
+        <h1>Мясной дворик</h1>
+        <p>Свежайшее мясо и мясные деликатесы</p>
+    </div>
+    
+    <!-- Меню навигации -->
+    <div class="navbar">
+        <a href="#home">Главная</a>
+        <a href="#products">Продукция</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#reviews">Отзывы</a>
+    </div>
+    
+    <!-- Основная часть с товарами -->
+    <div class="products" id="products">
+        <h2>Наш ассортимент</h2>
+        
+        <!-- Пример карточки товара -->
+        <div class="product-card">
+            <img src="steak.jpg" alt="Стейк">
+            <h3>Стейк рибай</h3>
+            <p class="price">1200 руб/кг</p>
+            <p>Сочный стейк из мраморной говядины</p>
+        </div>
+        
+        <div class="product-card">
+            <img src="pork.jpg" alt="Свинина">
+            <h3>Свинина вырезка</h3>
+            <p class="price">450 руб/кг</p>
+            <p>Свежая свинина высшего сорта</p>
+        </div>
+        
+        <!-- Добавьте остальные товары по аналогии -->
+    </div>
+    
+    <!-- Контакты -->
+    <div class="contacts" id="contacts">
+        <h2>Контакты</h2>
+        <p>Адрес: г. Дюртюли, ул. Ленина ,5</p>
+        <p>Телефон: </p>
+    </div>
+    
+    <!-- Футер -->
+    <div class="footer">
+        <p>© 2025 Мясной дворик</p>
+    </div>
+</body>
+</html>
